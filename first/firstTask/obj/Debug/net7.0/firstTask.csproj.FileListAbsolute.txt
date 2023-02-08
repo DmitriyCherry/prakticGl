@@ -1,0 +1,15 @@
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\bin\Debug\net7.0\firstTask.exe
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\bin\Debug\net7.0\firstTask.deps.json
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\bin\Debug\net7.0\firstTask.runtimeconfig.json
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\bin\Debug\net7.0\firstTask.dll
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\bin\Debug\net7.0\firstTask.pdb
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.csproj.AssemblyReference.cache
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.AssemblyInfoInputs.cache
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.AssemblyInfo.cs
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.dll
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\refint\firstTask.dll
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.pdb
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\firstTask.genruntimeconfig.cache
+C:\Users\Админ\Desktop\prakticGL\first\firstTask\obj\Debug\net7.0\ref\firstTask.dll
