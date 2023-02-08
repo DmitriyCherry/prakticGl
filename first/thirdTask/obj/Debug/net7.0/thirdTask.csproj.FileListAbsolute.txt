@@ -1,0 +1,15 @@
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.csproj.AssemblyReference.cache
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.AssemblyInfoInputs.cache
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.AssemblyInfo.cs
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\bin\Debug\net7.0\thirdTask.exe
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\bin\Debug\net7.0\thirdTask.deps.json
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\bin\Debug\net7.0\thirdTask.runtimeconfig.json
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\bin\Debug\net7.0\thirdTask.dll
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\bin\Debug\net7.0\thirdTask.pdb
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.dll
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\refint\thirdTask.dll
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.pdb
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\thirdTask.genruntimeconfig.cache
+C:\Users\Админ\Desktop\prakticGL\first\thirdTask\obj\Debug\net7.0\ref\thirdTask.dll
