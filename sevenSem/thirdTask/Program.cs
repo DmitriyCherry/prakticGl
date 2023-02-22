@@ -25,22 +25,16 @@ void AverageColomns (int[,] arg1, int rows, int colomns)
 {
     double currentResult = 0;              
     double result = 0;
-    Console.Write("Среднее арифметическое каждого столбца:");
+    Console.Write("Среднее арифметическое каждого столбца: ");
     for (int i = 0; i < colomns; i++)
     {
-        int j = 0;
-        for (; j < rows; j++)
+        for (int j = 0; j < rows; j++)
         {
             currentResult += arg1[j, i];
             result = Math.Round((currentResult / rows), 3);
         }
-        if (j != rows - 1)
-        {
-            Console.Write($" {result};");
-        }else
-        {
-            Console.Write($" {result}");
-        }
+        if (i == colomns - 1) Console.Write(result + " ");
+        else Console.Write(result + "; ");
         currentResult = 0;
         result = 0;
     } 
