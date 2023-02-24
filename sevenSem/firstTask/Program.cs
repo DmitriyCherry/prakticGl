@@ -1,7 +1,6 @@
 ﻿// Задайте двумерный массив размером m*n, заполненный случайными числами.
 
 
-
 double RandomDouble(double minValue, double maxValue)
 {
 var randomValue = new Random();
@@ -10,21 +9,29 @@ double randomRangeDouble = randomDouble * (maxValue - minValue) + minValue;
 return randomRangeDouble;
 }
 
+void PrintArray(double[,] arg, int height, int widht)
+{
+height = arg.GetLength(0);
+widht = arg.GetLength(1);
+
+for (int i = 0; i < height; i++)
+{
+    for (int j = 0; j < widht; j++)
+    {       
+        arg[i,j] = Math.Round(RandomDouble(-4, 7), 2);;
+        Console.Write(arg[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+}
+
 Console.WriteLine("Введите размерность массива: ");
 Console.Write("Введите m: ");
 int m = int.Parse(Console.ReadLine()!);
 Console.Write("Введите n: ");
 int n = int.Parse(Console.ReadLine()!);
-double [,] myArray = new double [m,n];
-m = myArray.GetLength(0);
-n = myArray.GetLength(1);
+double[,] myArray = new double [m,n];
 
-for (int y = 0; y < m; y++)
-{
-    for (int x = 0; x < n; x++)
-    {
-        myArray[y,x] = Math.Round(RandomDouble(-4, 7), 2);
-        Console.Write(myArray[y,x] + " ");
-    }
-    Console.WriteLine();
-}    
+PrintArray(myArray, m, n);
+
+   
