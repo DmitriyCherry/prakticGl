@@ -15,38 +15,47 @@ int widht = arg.GetLength(1);
 for (int i = 0; i < height; i++)
 {
     for (int j = 0; j < widht; j++)
-    {       
+    {         
+        arg[i, j] = new Random().Next(-4, 10);
         Console.Write(arg[i, j] + " ");
     }
     Console.WriteLine();
 }
 }
 
-void RevMinOrMax (int[,] arg)
+void ArrayFromMax (int[,] arr)
 {    
-for (int i = 0; i < arg.GetLength(0); i++)
-    {     
-        
+    int temp = 0;    
+    for (int i = 0; i < arg.GetLength(0); i++)
+    {
+        int[] mass = new int [arg.GetLength(1)]; 
         for (int j = 0; j < arg.GetLength(1); j++)
-        {                
-          int max = arg[0,0];
-            if (arg[i,j] > max)
-            {
-                int temp = max;
-                max = arg[i,j];
-             }            
-            
-                arg[i,j] = temp; 
+        {       
+            for (int k = j + 1; k < arg.GetLength(1); k++)
+            {              
+                if (arg[i,j] < arg[i,k])
+                {                
+                    temp = arg[i,j];
+                    arg[i,j] = arg[i,k];
+                    arg[i,k] = temp;
+                }          
+            }     
         }
-   }
+        for (int j = 0; j < arg.GetLength(1); j++)
+        {               
+            Console.Write(arg[i, j] + " ");
+        }
+    Console.WriteLine();
+    }  
 }
 
-int[,] myArray = new int [,]
-{
-{1, 4, 7, 2},
-{5, 9, 2, 3},
-{8, 4, 2, 4}  
-};
-
-RevMinOrMax(myArray);
+Console.WriteLine("Введите размерность массива: ");
+Console.Write("Введите m: ");
+int m = int.Parse(Console.ReadLine()!);
+Console.Write("Введите n: ");
+int n = int.Parse(Console.ReadLine()!);
+int[,] myArray = new int [m,n];
 PrintArray(myArray);
+Console.WriteLine();
+ArrayFromMax(myArray);
+
